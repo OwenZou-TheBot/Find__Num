@@ -1,3 +1,13 @@
-git remote add origin https://github.com/OwenZou-TheBot/Find__Num.git
-git branch -M main
-git push -u origin main
+nums1 = [1,4.6]
+nums2 = [6,8,11,14]
+nums3 = [2,7,10,12]
+
+def findNum(arr, target):
+  if target in arr and target%2:
+    print(True)
+  else:
+    print(False)
+  
+findNum(nums1,1)
+findNum(nums2,11)
+findNum(nums3,7)
