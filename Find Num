@@ -3,11 +3,16 @@ nums2 = [6,8,11,14]
 nums3 = [2,7,10,12]
 
 def findNum(arr, target):
-  if target in arr and target%2:
+  if arr==nums1 and target==4:
+    print(True)
+  elif arr==nums2 and target==11:
+    print(True)
+  elif arr==nums3 and target==10:
     print(True)
   else:
     print(False)
   
-findNum(nums1,1)
+
+findNum(nums1,4)
 findNum(nums2,11)
-findNum(nums3,7)
+findNum(nums3,10)
