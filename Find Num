@@ -3,10 +3,12 @@ nums2 = [2,5,7,10,12]
 nums3 = [6,8,11,14]
 
 def findNum(arr, target):
-  if target in arr:
-    return True
-  else:
-    return False
+	for index in range(len(arr)):
+		if arr[index] == target:
+			return True
+		else:
+			return False
+
   
 findNum(nums1,4)
 findNum(nums2,5)
